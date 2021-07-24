@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+<head>
+
+  <!-- Initial meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta name="description" content="This is quick starter version 2 which is always upgrading.."> 
+
+  <!-- icons -->
+  <link rel="apple-touch-icon" href="images/favicon.ico">
+  <link rel="icon" href="images/icon.png">
+
+  <!-- Google Fonts -->
+  
+
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="css/fonts/fontawesome-free-5.6.3-web/css/all.css">
+
+   <!-- Basic css links -->
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/bootstrap-next.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mediaquery.css">
+
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <![endif]-->
+
+  <title>QSv2: Quick starter version 2</title>
+</head>
+
+<body class="nocopy">
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  
+
+
+
+  <!-- ---------------- additional scripts are here -------------------- -->  
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-next.min.js"></script>
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Google Analytics: I should change UA-XXXXX-Y to be my site's ID. 
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script> -->
+  <!-- scripts for toast, popover and tooltips-->
+  <script>
+    $(document).ready(function(){
+        $('.toast').toast('show');
+      });
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    $(document).ready(function () {
+      $('[data-toggle="popover"]').popover();
+    });
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+
+ <!-- disables right click and f12 press on site
+  <script type="text/javascript">
+    $(document).keydown(function(event){
+    if(event.keyCode==123){
+        return false;
+    }
+    else if (event.ctrlKey && event.shiftKey && event.keyCode==73){        
+             return false;
+    }
+});
+
+$(document).on("contextmenu",function(e){        
+   e.preventDefault();
+});
+  </script>
+  <script>
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && 
+                (e.keyCode === 67 || 
+                 e.keyCode === 86 || 
+                 e.keyCode === 85 || 
+                 e.keyCode === 117)) {
+                return false;
+            } else {
+                return true;
+            }
+    };
+    $(document).keypress("u",function(e) {
+      if(e.ctrlKey)
+      {
+    return false;
+    }
+    else
+    {
+    return true;
+    }
+    });
+    </script> -->
+
+<!--  Disable form submissions if there are invalid fields , needs-validaion method -->
+    <script>
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Get the forms we want to add validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+        </script>
+
+  <noscript>Sorry kiddo ! your browser doesn't support <strong>Javascript</strong> and that's why you're missing some amazing features of this awesome website.</noscript>
+</body>
+
+</html>
