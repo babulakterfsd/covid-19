@@ -1,5 +1,8 @@
 /*------- responsive css ----- */
 
+/* XXL-Extra Large Device Container:1140px (Large Desktop) */
+@media (min-width: 1400px) {}
+
 /* XL-Extra Large Device Container:1140px (Large Desktop) */
 @media (min-width: 1200px) {}
 

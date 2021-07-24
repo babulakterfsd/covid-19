@@ -1,135 +1,67 @@
 <!doctype html>
 <html class="no-js" lang="en-US">
-<head>
+   <head>
+      <!-- Initial meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+      <meta name="description" content="A simple, fully responsive landing page on covid-19 with bootstrap5">
+      <meta name="keywords" content="covid-19, bootstrap5, landing page, responsive bootstrap template">
+      <meta name="author" content="Babul Akter">
+      <meta name="publisher" content="Babul Akter">
+      <meta name="copyright" content="Babul Akter">
+      <meta name="description" content="A simple, fully responsive landing page on covid-19 with bootstrap5">
+      <meta name="page-topic" content="Media">
+      <meta name="page-type" content="landing page">
+      <meta name="audience" content="Everyone">
+      <meta name="robots" content="index, follow">
 
-  <!-- Initial meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
-  <meta name="description" content="This is quick starter version 2 which is always upgrading.."> 
+      <!-- icons -->
+      <link rel="apple-touch-icon" href="images/favicon.ico">
+      <link rel="icon" href="images/icon.png">
 
-  <!-- icons -->
-  <link rel="apple-touch-icon" href="images/favicon.ico">
-  <link rel="icon" href="images/icon.png">
+      <!-- Google Fonts -->
 
-  <!-- Google Fonts -->
-  
+      <!-- Font awesome -->
+      <script src="https://kit.fontawesome.com/999412a9e6.js" crossorigin="anonymous"></script>
 
+      <!-- animate css -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-  <!-- Font awesome -->
-  <link rel="stylesheet" href="css/fonts/fontawesome-free-5.6.3-web/css/all.css">
+      <!-- Bootstrap css -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-   <!-- Basic css links -->
-  <link rel="stylesheet" href="css/animate.min.css">
-  <link rel="stylesheet" href="css/bootstrap-next.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/mediaquery.css">
+      <!-- Main css and media query -->
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/mediaquery.css">
 
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <![endif]-->
-
-  <title>QSv2: Quick starter version 2</title>
-</head>
-
-<body class="nocopy">
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-  
-
-
-
-  <!-- ---------------- additional scripts are here -------------------- -->  
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap-next.min.js"></script>
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  <!-- Google Analytics: I should change UA-XXXXX-Y to be my site's ID. 
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script> -->
-  <!-- scripts for toast, popover and tooltips-->
-  <script>
-    $(document).ready(function(){
-        $('.toast').toast('show');
-      });
-    $(document).ready(function () {
-      $('[data-toggle="tooltip"]').tooltip();
-    });
-    $(document).ready(function () {
-      $('[data-toggle="popover"]').popover();
-    });
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+      <title>Covid-19: Stay home, Stay safe</title>
+   </head>
+   <body class="nocopy">
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+    
+    
 
 
- <!-- disables right click and f12 press on site
-  <script type="text/javascript">
-    $(document).keydown(function(event){
-    if(event.keyCode==123){
-        return false;
-    }
-    else if (event.ctrlKey && event.shiftKey && event.keyCode==73){        
-             return false;
-    }
-});
 
-$(document).on("contextmenu",function(e){        
-   e.preventDefault();
-});
-  </script>
-  <script>
-    document.onkeydown = function(e) {
-            if (e.ctrlKey && 
-                (e.keyCode === 67 || 
-                 e.keyCode === 86 || 
-                 e.keyCode === 85 || 
-                 e.keyCode === 117)) {
-                return false;
-            } else {
-                return true;
-            }
-    };
-    $(document).keypress("u",function(e) {
-      if(e.ctrlKey)
-      {
-    return false;
-    }
-    else
-    {
-    return true;
-    }
-    });
-    </script> -->
 
-<!--  Disable form submissions if there are invalid fields , needs-validaion method -->
-    <script>
-        (function() {
-          'use strict';
-          window.addEventListener('load', function() {
-            // Get the forms we want to add validation styles to
-            var forms = document.getElementsByClassName('needs-validation');
-            // Loop over them and prevent submission
-            var validation = Array.prototype.filter.call(forms, function(form) {
-              form.addEventListener('submit', function(event) {
-                if (form.checkValidity() === false) {
-                  event.preventDefault();
-                  event.stopPropagation();
-                }
-                form.classList.add('was-validated');
-              }, false);
-            });
-          }, false);
-        })();
-        </script>
 
-  <noscript>Sorry kiddo ! your browser doesn't support <strong>Javascript</strong> and that's why you're missing some amazing features of this awesome website.</noscript>
-</body>
-
+      <!----- Scripts ------>  
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="js/main.js"></script>
+      <script>
+         $(document).ready(function(){ /*toast*/
+             $('.toast').toast('show');
+           });
+         $(document).ready(function () { /*tooltip*/
+           $('[data-toggle="tooltip"]').tooltip();
+         });
+         $(document).ready(function () { /*popover*/
+           $('[data-toggle="popover"]').popover();
+         });
+      </script>
+   </body>
 </html>
