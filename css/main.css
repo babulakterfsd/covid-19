@@ -122,3 +122,15 @@ main {
     width: 50px;
     display: inline-block;
 }
+.prevention-rule-one {
+    background-image: url(../images/path1470\ \(2\).png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100px 180px;
+}
+.prevention-rule-four {
+    background-image: url(../images/path1470\ \(4\).png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100px 180px;
+}
