@@ -1,9 +1,114 @@
-/* ------------   Google Fonts ----------- */
+/* ------------   Google Fonts -------- */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
 
 
 
-/* ------------ reusable common css styles  ----------- */
+
+/* --- reusable common css styles  ---- */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #035755;
+    --secondary-text-color: #FA5652;
+    --normal-text-color: #4B4F51;
+    --main-bg-color: #FFF8F8;
+}
+
+.primary-font {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+.secondary-font {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: var(--secondary-text-color);
+}
+.normal-text {
+    color: var(--normal-text-color);
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: block !important;
+}
+
+/* ------------ Header section Style -----*/
+    
+   /*navbar*/
+#header {
+    background-color: var(--main-bg-color);
+}
+.logo {
+    height: 65px;
+    width: 191px;
+}
+.custom-navbar-bg {
+    background-color: #dfc8c8;
+}
+.navbar-nav li a {
+    color: var(--primary-text-color) !important;
+    font-weight: 500;
+}
+.navbar-nav li a.active{
+    color: var(--secondary-text-color) !important;
+}
+
+   /*Banner*/
+#banner h5 {
+    color: var(--secondary-text-color);
+}
+.banner-btn {
+    height: 50px;
+    width: 180px;
+    background-color: var(--secondary-text-color);
+    border-radius: 45px;
+    color: #fff;
+    font-weight: 500;
+}
 
 
+/* ------------ What is covid section Style -----*/
+#covid {
+    background-image: url('/images/path1470.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 80px 150px;
+}
+.learnmore-btn {
+    height: 50px;
+    width: 180px;
+    background-color: #FEE6E5;
+    border-radius: 45px;
+    color: var(--secondary-text-color);
+    font-weight: 600;
+}
 
-/* ------------   ----------- */
+
+/* ------------ Contagion section Style -----*/
+#contagion {
+    background-image: url('/images/path1470.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 150px 250px;
+}
+.contagion-card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-img {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin: 0px auto;
+}
