@@ -138,3 +138,49 @@ main {
 
 /* -------- Report Section Style ----------- */
 
+
+
+/* -------- help Section Style ----------- */
+#help {
+    padding: 70px;
+    background-color: var(--main-bg-color);
+    background-image: url('../images/path1470\ \(3\).png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 180px 220px;
+}
+#help h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+#help input {
+    border: 0px solid transparent;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    border-radius: 50px;
+    height: 70px;
+    text-align: center;
+}
+#help input:focus {
+    outline: none;
+    border: 0px solid transparent;
+}
+.submit-btn {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: var(--secondary-text-color);
+    border-radius: 45px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+/* -------- Footer Section Style ----------- */
+#footer {
+    background-color: var(--main-bg-color);
+}
+.footer-logo {
+    height: 72px;
+    width: 220px;
+}
