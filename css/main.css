@@ -117,3 +117,8 @@ main {
 
 
 /* -------- Prevention Section Style ----------- */
+.prevention-number-image {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
