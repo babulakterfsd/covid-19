@@ -18,6 +18,10 @@
     --main-bg-color: #FFF8F8;
 }
 
+body {
+    position: relative; /* for scrollspy */
+}
+
 .primary-font {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
@@ -62,6 +66,14 @@ main {
 }
 .navbar-nav li a.active{
     color: var(--secondary-text-color) !important;
+}
+.navbar-nav .custom-contact-menu {
+    display: inline-block;
+    height: 40px;
+    width: 154px;
+    border-radius: 46px;
+    border: 1px solid red;
+    text-align: center;
 }
 
    /*Banner*/
@@ -114,6 +126,13 @@ main {
 
 
 /* -------- Symptomps Section Style ----------- */
+#symptomps {
+    background-image: url('../images/Path\ 1762.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 80px 120px;
+}
+
 
 
 /* -------- Prevention Section Style ----------- */
@@ -126,32 +145,32 @@ main {
     background-image: url(../images/path1470\ \(2\).png);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 100px 180px;
+    background-size: 40px 80px;
 }
 .prevention-rule-four {
     background-image: url(../images/path1470\ \(4\).png);
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 100px 180px;
+    background-size: 50px 100px;
 }
 
 
 /* -------- Report Section Style ----------- */
-
+#report {
+    background-image: url('../images/Path\ 1764.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 80px 120px;
+}
 
 
 /* -------- help Section Style ----------- */
 #help {
-    padding: 70px;
-    background-color: var(--main-bg-color);
+    padding: 50px 0px;
     background-image: url('../images/path1470\ \(3\).png');
-    background-position: bottom right;
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: 180px 220px;
-}
-#help h2 {
-    font-weight: 700;
-    font-size: 35px;
+    background-size: 100px 100px;
 }
 #help input {
     border: 0px solid transparent;
@@ -178,9 +197,17 @@ main {
 
 /* -------- Footer Section Style ----------- */
 #footer {
-    background-color: var(--main-bg-color);
+    background: linear-gradient(360deg, rgba(255, 241, 241, 0.5) 0%, rgba(255, 241, 241, 0) 108.69%);
 }
 .footer-logo {
-    height: 72px;
-    width: 220px;
+    height: 50px;
+    width: 150px;
+}
+.footer a {
+    color: var(--primary-text-color);
+    font-weight: 500;
+}
+.footer a:hover {
+    color: var(--secondary-text-color);
+    font-weight: 500;
 }

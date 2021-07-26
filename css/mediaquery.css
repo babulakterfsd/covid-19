@@ -8,14 +8,6 @@
     .custom-navbar-bg {
         background: #FFF8F8;
     }
-    .navbar-nav .custom-menu {
-    display: inline-block;
-    height: 40px;
-    width: 154px;
-    border-radius: 46px;
-    border: 1px solid red;
-    text-align: center;
-}
 }
 
 /* LG-Large Device Container:960px (Desktop) */

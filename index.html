@@ -37,7 +37,7 @@
 
       <title>Covid-19: Stay home, Stay safe</title>
    </head>
-   <body class="nocopy">
+   <body data-bs-spy="scroll" data-bs-target=".navbar" >
       <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
       <![endif]-->
@@ -45,9 +45,9 @@
     <!-- Header Starts -->
    <header id="header" class="header">
        <!-- Navbar -->
-       <nav class="navbar navbar-expand-xl navbar-light custom-navbar-bg">
+       <nav class="navbar navbar-expand-xl navbar-light custom-navbar-bg fixed-top">
          <div class="container-fluid">
-           <a class="navbar-brand" href="#">
+           <a class="navbar-brand" href="https://babulakterfsd.github.io/covid-19">
               <img class="ms-xl-5 logo" src="./images/weblogo.png" alt="logo">
            </a>
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,19 +56,19 @@
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
              <ul class="navbar-nav mb-3 ms-xl-auto me-xl-5 text-center">
                <li class="nav-item">
-                 <a class="nav-link active" aria-current="page" href="#">Overview</a>
+                 <a class="nav-link active" aria-current="page" href="#covid">Overview</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="#">Contagion</a>
+                 <a class="nav-link" href="#contagion">Contagion</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="#">Symptoms</a>
+                 <a class="nav-link" href="#symptomps">Symptoms</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="#">Prevention</a>
+                 <a class="nav-link" href="#prevention">Prevention</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link active custom-menu ms-xl-2" href="#">Contact</a>
+                 <a class="nav-link active custom-contact-menu ms-xl-2" href="#footer">Contact</a>
                </li>
              </ul>
            </div>
@@ -76,14 +76,14 @@
        </nav>
 
        <!-- Banner Section -->
-      <section id="banner" class="container-fluid ps-2 ps-md-5 mt-3 mt-md-5">
+      <section id="banner" class="container-fluid py-3 py-md-5 mt-5 ps-2 ps-md-5">
          <div class="row g-0 d-flex justify-content-center align-items-center">
             <div class="col-md-6">
                <h5 class="secondary-font">COVID-19 Alert</h5>
                <h1 class="primary-font">Stay at Home quarantine
                   To stop Corona virus</h1>
                   <p class="normal-text">There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to .</p>
-                  <button type="button" class="btn banner-btn mt-md-4">Let Us Help</button>
+                  <button type="button" class="btn banner-btn mt-1 mb-5 ">Let Us Help</button>
             </div>
             <div class="col-md-6">
                 <img src="./images/Illustration 01.png" alt="banner image">
@@ -96,10 +96,10 @@
     <!-- Main Starts -->
    <main id="main" class="main">
        <!-- What is Covid section starts -->
-      <section id="covid" class="covid mt-3 mt-md-5">
+      <section id="covid" class="covid py-3 py-md-5">
         <div class="container-fluid">
           <div class="row d-flex justify-content-between align-items-center">
-            <div class="col-md-6">
+            <div class="col-12 col-md-6">
                <img src="./images/Group 18557.png" alt="what is covid">
             </div>
             <div class="col-md-6 covid-info">
@@ -114,10 +114,10 @@
       <!-- What is Covid section ends -->
 
       <!-- Contagion Section Starts -->
-        <section id="contagion" class="contagion mt-3 mt-md-5 pt-3 pt-md-5 mb-2 mb-md-5">
+        <section id="contagion" class="contagion mt-5 py-3 py-md-5 mb-2 mb-md-5">
           <div class="container-fluid">
             <div class="row d-flex justify-content-center">
-              <div class="col-5 text-center">
+              <div class="col-12 col-md-5 text-center">
                 <h5 class="secondary-font">Covid-19</h5>
                 <h2 class="primary-font">Contagion</h2>
                 <p class="normal-text my-2 my-md-4">Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type</p>
@@ -166,17 +166,17 @@
       <!-- Contagion Section Ends -->
 
       <!-- Symptomps Section Start -->
-        <section id="symptomps" class="symptomps mt-3 my-md-5 py-md-5">
+        <section id="symptomps" class="symptomps my-5 py-5">
           <div class="container-fluid">
             <div class="row d-flex justify-content-center">
-              <div class="col-6 text-center">
+              <div class="col-12 col-md-6 text-center">
                 <h5 class="secondary-font">Covid-19</h5>
                 <h2 class="primary-font">Symptomps</h2>
                 <p class="normal-text my-2 mt-md-4 mb-md-1">Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory </p>
               </div>
             </div>
             <div class="row d-flex justify-content-center">
-              <div class="col-6">
+              <div class="col-12 col-md-6">
                  <img src="./images/Group 15444.png" alt="">
               </div>
             </div>
@@ -185,10 +185,10 @@
       <!-- Symptoms Section End -->
 
       <!-- Prevention Section Start -->
-         <section id="prevention" class="prevention mt-2 mt-md-5 py-md-5">
+         <section id="prevention" class="prevention my-5 py-5">
           <div class="container-fluid">
             <div class="row d-flex justify-content-center">
-              <div class="col-6 text-center">
+              <div class="col-12 col-md-6 text-center">
                 <h5 class="secondary-font">Covid-19</h5>
                 <h2 class="primary-font">What  should we do</h2>
                 <p class="normal-text my-2 my-md-4">Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused</p>
@@ -197,7 +197,7 @@
           </div>
           <div class="container-fluid mt-md-3">
             <!-- Prevention Rules One -->
-            <div class="row prevention-rule-one px-2 px-md-5 mb-3 mb-md-5 d-flex justify-content-evenly align-items-center">
+            <div class="row prevention-rule-one px-md-5 my-5 d-flex justify-content-evenly align-items-center">
               <div class="col-md-5 d-inline-flex justify-content-between">
                 <img class="prevention-number-image" src="./images/Group 18548.png" alt="">
                 <div class="prevention-info ms-2 ms-md-4 mt-2">
@@ -205,13 +205,13 @@
                   <p class="normal-text">Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively </p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-8 col-md-4">
                 <img class="prevention-image" src="./images/Mask girl.png" alt="mask">
               </div>
             </div>
             <!-- Prevention Rules two -->
-            <div class="row px-2 px-md-5 mb-3 mb-md-5 d-flex justify-content-evenly align-items-center">
-              <div class="col-md-4">
+            <div class="row px-2 px-md-5 my-5 d-flex justify-content-evenly align-items-center">
+              <div class="col-md-4 col-8">
                 <img class="prevention-image" src="./images/Mask girl2.png" alt="mask">
               </div>
               <div class="col-md-5 d-inline-flex justify-content-between">
@@ -223,7 +223,7 @@
               </div>
             </div>
             <!-- Prevention Rules three -->
-            <div class="row px-2 px-md-5 mb-3 mb-md-5 d-flex justify-content-evenly align-items-center">
+            <div class="row px-2 px-md-5 my-5 d-flex justify-content-evenly align-items-center">
               <div class="col-md-5 d-inline-flex justify-content-between">
                 <img class="prevention-number-image" src="./images/Group 18550.png" alt="">
                 <div class="prevention-info ms-2 ms-md-4 mt-2">
@@ -231,13 +231,13 @@
                   <p class="normal-text">Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box" thinking. Objectively </p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 col-8">
                 <img class="prevention-image" src="./images/Group 15454.png" alt="mask">
               </div>
             </div>
             <!-- Prevention Rules four -->
-            <div class="row prevention-rule-four px-2 px-md-5 mb-3 mb-md-5 d-flex justify-content-evenly align-items-center">
-              <div class="col-md-4">
+            <div class="row prevention-rule-four px-2 px-md-5 my-5 d-flex justify-content-evenly align-items-center">
+              <div class="col-md-4 col-8">
                 <img class="prevention-image" src="./images/Mask.png" alt="mask">
               </div>
               <div class="col-md-5 d-inline-flex justify-content-between">
@@ -254,12 +254,12 @@
 
       <!-- Report Section Start -->
          <section id="report" class="report">
-           <div class="container">
-             <div class="row">
-               <div class="col-md-7 mt-5">
+           <div class="container-fluid">
+             <div class="row d-flex justify-content-evenly">
+               <div class="col-md-6 mt-5">
                   <img src="./images/world map report.png" alt="">
                </div>
-               <div class="col-md-5">
+               <div class="col-md-4">
                   <img src="./images/textreport.png" alt="">
                </div>
              </div>
@@ -273,11 +273,11 @@
     <!-- Footer Starts -->
    <footer id="footer" class="footer">
      <!-- Help section start -->
-     <section id="help" class="help py-2 my-3 my-md-5 py-md-5">
+     <section id="help" class="help my-md-5">
       <div class="container-fluid">
-        <div class="row d-flex justify-content-center">
+        <div class="row d-md-flex justify-content-md-center">
           <div class="col-12 col-md-6">
-             <h2 class="primary-font text-center mb-4"><span class=" d-inline-block mb-3">Have Question in mind?</span><br>
+             <h2 class="primary-font mb-4 text-center"><span class=" d-inline-block mb-3">Have Question in mind?</span><br>
               Let us help you</h2>
               <form>
                 <input type="email" class="form-control mb-3" id="email" placeholder="name@example.com" value="yourname@example.com">
@@ -292,22 +292,22 @@
          <div class="container-fluid">
            <div class="row my-3 d-md-flex justify-content-around align-self-center">
              <div class="col-md-4">
-                <img class="footer-logo d-none d-md-block ms-5" src="./images/weblogo.png" alt="">
+                <img class="footer-logo d-none d-md-block ms-md-5" src="./images/weblogo.png" alt="">
              </div>
              <div class="col-md-4 mt-4">
                 <div class="footer-menu text-center">
-                  <a class="me-md-1" href="#">Overview</a>
-                  <a class="me-md-1" href="#">Symptomps</a>
-                  <a class="me-md-1" href="#">Prevention</a>
-                  <a class="me-md-1" href="#">Treatment</a>
+                  <a class="me-md-1" href="#covid">Overview</a>
+                  <a class="me-md-1" href="#symptomps">Symptomps</a>
+                  <a class="me-md-1" href="#prevention">Prevention</a>
+                  <a class="me-md-1" href="#banner">Top</a>
                 </div>
              </div>
              <div class="col-md-4 mt-2 mt-md-4">
                 <div class="social-icons text-center">
-                  <a href="https://facebook.com/babulakterfsd"><i class="fab fa-facebook-f ms-3"></i></a>
-                  <a class="ms-3" href="https://www.youtube.com/channel/UCeuKdcs0jmfPaWQYFGj-YnQ"><i class="fab fa-youtube ms-3"></i></a>
-                  <a class="ms-3" href="https://github.com/babulakterfsd"><i class="fab fa-vimeo-v ms-3"></i></a>
-                  <a class="ms-3" href="https://twitter.com/babulakterfsd"><i class="fab fa-twitter ms-3"></i></a>
+                  <a href="https://facebook.com/babulakterfsd" target="_blank"><i class="fab fa-facebook-f ms-3"></i></a>
+                  <a class="ms-3" href="https://www.youtube.com/channel/UCeuKdcs0jmfPaWQYFGj-YnQ" target="_blank"><i class="fab fa-youtube ms-3"></i></a>
+                  <a class="ms-3" href="https://github.com/babulakterfsd" target="_blank"><i class="fab fa-github ms-3"></i></a>
+                  <a class="ms-3" href="https://twitter.com/babulakterfsd" target="_blank"><i class="fab fa-twitter ms-3"></i></a>
                 </div>
              </div>
            </div>
