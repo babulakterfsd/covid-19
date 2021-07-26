@@ -88,6 +88,10 @@ main {
     color: #fff;
     font-weight: 500;
 }
+.banner-btn:hover {
+    background-color: var(--primary-text-color);
+    color: var(--main-bg-color);
+}
 
 
 /* ------------ What is covid section Style -----*/
@@ -104,6 +108,12 @@ main {
     border-radius: 45px;
     color: var(--secondary-text-color);
     font-weight: 600;
+    display: inline-block;
+    margin: 0px auto;
+}
+.learnmore-btn:hover {
+    background-color: #f1bebe;
+    color: var(--primary-text-color);
 }
 
 
